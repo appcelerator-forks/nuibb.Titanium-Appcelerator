@@ -1,0 +1,14 @@
+
+".container" : {
+  
+}
+
+"#profileName": {
+	top:"5dp",
+	height:"21dp",
+	left: "10dp",
+	color: "#9B9B9B",
+	font: {
+		fontSize: 14
+	}
+}

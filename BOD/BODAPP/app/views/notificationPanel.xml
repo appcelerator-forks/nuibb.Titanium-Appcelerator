@@ -1,0 +1,29 @@
+<Alloy>
+	<Window id="win" class="container" fullscreen="true">
+		<View id="rootHolder" layout='vertical' top="0dp">
+			
+			<View id="header" backgroundColor="#019AE8" top="0dp" left="0dp" right="0dp" height="50dp">
+				<Button id="crossBtn" onClick="crossBtnListener" left="10dp" width="32dp" height="27dp" backgroundImage="/images/back.png"/>
+				<Label id="navLabel" left="55dp" color="#fff">
+					Notifications
+				</Label>
+			</View>
+			<ListView id="elementsList" defaultItemTemplate="elementTemplate" backgroundColor="#fff">
+				<Templates>
+					<ItemTemplate name="elementTemplate" height='80dp'>
+						<Label bindId="title" id="title">
+						</Label>
+						<Label bindId="timeAgo" id="timeAgo">
+						</Label>
+						<Label bindId="details" id="details">
+						</Label>
+						<View id="line">
+						</View>
+					</ItemTemplate>
+				</Templates>
+				<ListSection>
+				</ListSection>
+			</ListView>
+		</View>
+	</Window>
+</Alloy>

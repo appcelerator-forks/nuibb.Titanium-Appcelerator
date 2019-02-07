@@ -1,0 +1,33 @@
+".container": {
+	backgroundColor:"white"
+}
+
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000",
+	font: {
+		fontSize: 16
+	}
+}
+
+"#label": {
+	top: "10dp",
+	fontWeight: 'bold',
+	font: {
+		fontSize: 25
+	}
+}
+
+"#image": {
+	width: "80dp",
+	height: "80dp",
+	top: "7%",
+	color: "red"
+}
+
+"TextField": {
+	font: {
+		fontSize: 16
+	}
+}

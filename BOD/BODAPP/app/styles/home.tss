@@ -1,0 +1,75 @@
+
+".container" : {
+	backgroundColor:"#fff"
+}
+
+"#emptyProject": {
+	width:"200dp",
+	height:Ti.UI.SIZE,
+	color:"#9B9B9B",
+	fontWeight:'bold',
+	font: {
+		fontSize: 22
+	}
+}
+
+"Button": {
+	left: "0dp",
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	fontWeight: 'bold'
+}
+
+"#leftNavImage": {
+	left: 10,
+	width:30,
+	height: 30
+}
+
+"#rightNavImage": {
+	right: 50,
+	width:30,
+	height: 30
+}
+
+"#notiNavImage": {
+	right: 10,
+	width:30,
+	height: 30
+}
+
+"#profilePic": {
+	left: 10,
+	width:30,
+	height: 30
+}
+
+"#concern": {
+	left:"50dp",
+	color:"#9B9B9B",
+	font: {
+		fontSize: 14
+	}
+}
+
+"#title": {
+	left: 10,
+	maxLines:2,
+	color:"#000",
+	fontWeight: 'bold',
+	font: {
+		fontSize: 18
+	}
+}
+
+"#details": {
+	top:5,
+	left: 10,
+	maxLines:3,
+	color:"#9B9B9B",
+	font: {
+		fontSize: 16
+	}
+}
+
+

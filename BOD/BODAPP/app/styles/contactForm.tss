@@ -1,0 +1,19 @@
+
+".container": {
+	backgroundColor: "white"
+}
+
+
+"#profileName": {
+	color:"#000",
+	font: {
+		fontSize: 16
+	}
+}
+
+"#profileType": {
+	color:"#9B9B9B",
+	font: {
+		fontSize: 14
+	}
+}

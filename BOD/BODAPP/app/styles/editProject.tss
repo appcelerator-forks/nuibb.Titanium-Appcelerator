@@ -1,0 +1,255 @@
+
+".container": {
+	backgroundColor: "#019AE8",
+	theme: 'Theme.AppCompat.NoTitleBar'
+}
+
+"#win[platform=android]": {
+	windowSoftInputMode: Ti.UI.Android.SOFT_INPUT_STATE_HIDDEN
+}
+
+"#navLabel": {
+	left: "55dp",
+	right: "115dp",
+	color: "#fff",
+	maxLines:1,
+	fontWeight: 'bold',
+	font: {
+		fontSize: 20
+	}
+}
+
+"#editBtn": {
+	font: {
+		fontSize: 17
+	}
+}
+
+"scrollView": {
+	left: "0dp",
+	top: "0dp",
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE
+}
+
+"#statusLabel": {
+	fontWeight: 'bold',
+	font: {
+		fontSize: 18
+	}
+}
+
+"#status": {
+	font: {
+		fontSize: 14
+	}
+}
+
+"#sponsor": {
+	top: "15dp",
+	left: "10dp",
+	color: "#000",
+	fontWeight: 'bold',
+	font: {
+		fontSize: 18
+	}
+}
+
+"#profilePic": {
+	left: 10,
+	top: 10,
+	height: 50,
+	width: 50
+}
+
+"#profileName": {
+	top: "10dp",
+	left: "10dp",
+	color: "#9B9B9B",
+	font: {
+		fontSize: 14
+	}
+}
+
+"#assignManager": {
+	top:"10dp",
+	left: "10dp",
+	color: "#000",
+	fontWeight: 'bold',
+	font: {
+		fontSize: 18
+	}
+}
+
+"#managersList": {
+	top: "10dp",
+	left: "0dp",
+	right: "0dp",
+	height: "70dp",
+	scrollType:"horizontal",
+	layout:"horizontal"
+}
+
+"#projectType": {
+	fontWeight: 'bold',
+	font: {
+		fontSize: 18
+	}
+}
+
+"#projectTitle": {
+	top: "10dp",
+	left: "10dp",
+	color: "#9B9B9B",
+	font: {
+		fontSize: 14
+	}
+}
+
+"#projectName": {
+	top: "5dp",
+	left: "10dp",
+	right: "10dp",
+	height: Titanium.UI.SIZE,
+	color: "#000",
+	maxLength:80
+}
+
+"#description": {
+	top: "10dp",
+	left: "10dp",
+	color: "#9B9B9B",
+	font: {
+		fontSize: 14
+	}
+}
+
+"#projectDescription": {
+	top: "5dp",
+	left: "10dp",
+	right: "10dp",
+	height: Titanium.UI.SIZE,
+	color: "#000",
+	textAlign: "left",
+	keyboardType: Titanium.UI.KEYBOARD_DEFAULT,
+	returnKeyType :Titanium.UI.RETURNKEY_NEXT
+}
+
+"#teamSizeLabel": {
+	left: "0dp",
+	color: "#9B9B9B",
+	font: {
+		fontSize: 14
+	}
+}
+
+"#teamSizeText": {
+	top: "2dp",
+	left: "0dp",
+	right: "10dp",
+	height: Titanium.UI.SIZE,
+	color: "#000",
+	maxLength:3,
+	keyboardType : Ti.UI.KEYBOARD_NUMBER_PAD
+}
+
+"#durationLabel": {
+	left: "0dp",
+	color: "#9B9B9B",
+	font: {
+		fontSize: 14
+	}
+}
+
+"#durationText": {
+	top: "2dp",
+	left: "0dp",
+	right: "10dp",
+	height: Titanium.UI.SIZE,
+	color: "#000",
+	maxLength:3,
+	hintText:"Days",
+	keyboardType : Ti.UI.KEYBOARD_NUMBER_PAD
+}
+
+"#responseDays": {
+	top: "10dp",
+	left: "10dp",
+	color: "#9B9B9B",
+	font: {
+		fontSize: 14
+	}
+}
+
+"#responseDaysText": {
+	top: "5dp",
+	left: "10dp",
+	width: "50%",
+	height: Titanium.UI.SIZE,
+	color: "#000",
+	maxLength:3,
+	hintText:"Days",
+	keyboardType : Ti.UI.KEYBOARD_NUMBER_PAD
+}
+
+"#budget": {
+	fontWeight: 'bold',
+	font: {
+		fontSize: 18
+	}
+}
+
+"#revenuePlan": {
+	top: "10dp",
+	left: "10dp",
+	color: "#9B9B9B",
+	font: {
+		fontSize: 14
+	}
+}
+
+"#revenuePlanText": {
+	top: "5dp",
+	left: "10dp",
+	right: "10dp",
+	height: Titanium.UI.SIZE,
+	color: "#000",
+	keyboardType: Titanium.UI.KEYBOARD_DEFAULT,
+	returnKeyType :Titanium.UI.RETURNKEY_NEXT
+}
+
+"#targetRevenueLabel": {
+	left: "0dp",
+	color: "#9B9B9B",
+	font: {
+		fontSize: 14
+	}
+}
+
+"#targetRevenueText": {
+	top: "2dp",
+	left: "0dp",
+	right: "10dp",
+	height: Titanium.UI.SIZE,
+	color: "#000",
+	maxLength:10,
+	keyboardType : Ti.UI.KEYBOARD_NUMBER_PAD
+}
+
+"#additionalCostLabel": {
+	left: "0dp",
+	color: "#9B9B9B",
+	font: {
+		fontSize: 14
+	}
+}
+
+"#additionalCostText": {
+	top: "2dp",
+	left: "0dp",
+	right: "10dp",
+	height: Titanium.UI.SIZE,
+	color: "#000",
+	maxLength:10,
+	keyboardType : Ti.UI.KEYBOARD_NUMBER_PAD
+}

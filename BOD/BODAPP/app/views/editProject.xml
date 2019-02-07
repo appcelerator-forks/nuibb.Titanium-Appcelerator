@@ -1,0 +1,68 @@
+<Alloy>
+	<Window id="win" backgroundColor="#019AE8" fullscreen="true" theme='Theme.AppCompat.Light.DarkActionBar'>
+		<View id="navHeader" backgroundColor="#019AE8" top="5dp" left="0dp" right="0dp" height="50dp">
+			<Button id="crossBtn" onClick="crossBtnListener" left="10dp" width="33dp" height="27dp" backgroundImage="/images/back.png"/>
+			<Label id="navLabel" left="55dp" color="#fff"></Label>
+			<Button id="editBtn" type="false" onClick="editBtnListener" color="#fff" title="EDIT" right="10dp" width="Ti.UI.SIZE" height="30dp" backgroundColor="transparent"/>
+		</View>
+		<ScrollView id="scrollView" showVerticalScrollIndicator="true" top="60dp" layout='vertical' backgroundColor="white">
+			<View id="statusHeader" top="10dp" left="0dp" right="0dp" height="Ti.UI.SIZE">
+				<Label id="statusLabel" left="10dp" color="#000">Project Status</Label>
+				<ImageView id="infoPic" right="10dp" width="20dp" height="20dp" image="/images/info.png"/>
+			</View>
+			<View id="pendingHeader" top="5dp" left="0dp" right="0dp" height="Ti.UI.SIZE">
+				<View id="statusIcon" backgroundColor="#FF9800" left="10dp" width="8dp" height="8dp" borderRadius="4dp"></View>
+				<Label id="status" left="25dp" color="#FF9800" textAlign="Ti.UI.TEXT_ALIGNMENT_LEFT" fontStyle="italic"></Label>
+			</View>
+			<Label id="sponsor">Project Sponsor</Label>
+			<ImageView id="profilePic"/>
+			<Label id="profileName"></Label>
+			<Label id="assignManager">Assign Manager</Label>
+			<ScrollView id="managersList" layout='horizontal'>
+			</ScrollView>
+			<View id="pickerHeader" top="10dp" left="0dp" right="0dp" height="30dp">
+				<Label id="projectType" left="10dp" color="#000"></Label>
+				<Button id="disclosureBtn"  right="10dp" width="20dp" height="20dp" backgroundImage="/images/down.png"/>
+			</View>
+			<Label id="projectTitle">Project Title</Label>
+			<TextField id="projectName"/>
+			<Label id="description">Project Description</Label>
+			<TextArea id="projectDescription"/>
+			<View id="teamInfo" top="10dp" left="0dp" right="0dp" height="Ti.UI.SIZE" layout="horizontal">
+
+				<View id="teamSizeHolder" left="10dp" width="50%" height="Ti.UI.SIZE" layout='vertical'>
+					<Label id="teamSizeLabel">Team Size</Label>
+					<TextField id="teamSizeText"/>
+				</View>
+				<View id="durationHolder" left="0dp" right="0dp" height="Ti.UI.SIZE" layout='vertical'>
+					<Label id="durationLabel">Duration</Label>
+					<TextField id="durationText"/>
+				</View>
+			</View>
+			<Label id="responseDays">Response Day(s)</Label>
+			<TextField id="responseDaysText"/>
+			<Label id="budget" left="10dp" top="15dp" color="#000">Project Budget</Label>
+			<Label id="revenuePlan">Revenue Plan</Label>
+			<TextField id="revenuePlanText"/>
+			<View id="targetRevenueInfo" top="10dp" left="0dp" right="0dp" height="Ti.UI.SIZE" layout="horizontal">
+
+				<View id="targetRevenueHolder" left="10dp" width="50%" height="Ti.UI.SIZE" layout='vertical'>
+					<Label id="targetRevenueLabel">Target Revenue</Label>
+					<TextField id="targetRevenueText"/>
+				</View>
+				<View id="additionalCostHolder" left="0dp" right="0dp" height="Ti.UI.SIZE" layout='vertical'>
+					<Label id="additionalCostLabel">Additional Cost</Label>
+					<TextField id="additionalCostText"/>
+				</View>
+
+			</View>
+			<Button id="approveBtn" onClick="approve" color="#fff" backgroundColor="#66cf78" title="APPROVE" top="30dp" left="40dp" right="40dp" height="45dp" borderRadius="2dp"/>
+			<Button id="rejectBtn" onClick="reject" color="#fff" backgroundColor="#ff575e" title="REJECT" top="20" left="40dp" right="40dp" height="45dp" borderRadius="2dp"/>
+			<Button id="contactBtn" onClick="contact" color="#019ae8" backgroundColor="#fff" title="CONTACT" top="20" left="40dp" right="40dp" height="45dp" borderRadius="2dp" borderColor="#019ae8"/>
+			<View id="footerView" left="0dp" right="0dp" height="50dp"/>
+			<OptionDialog id="dialog" title="Select"></OptionDialog>
+
+		</ScrollView>
+
+	</Window>
+</Alloy>

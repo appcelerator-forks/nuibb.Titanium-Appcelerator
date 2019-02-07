@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="Picker" parent="@style/_Picker"/>
+
+  <style name="_Picker" parent="Theme.AppCompat.Light.DarkActionBar">
+
+    <item name="android:editTextStyle">@style/EditTextPicker</item>
+
+    <item name="android:textColorHighlight">#99000000</item>
+
+    <item name="android:spinnerStyle">@style/SpinnerPicker</item>
+
+    <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItemPicker</item>
+
+  </style>
+
+</resources>

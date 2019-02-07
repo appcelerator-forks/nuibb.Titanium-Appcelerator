@@ -1,0 +1,57 @@
+<Alloy>
+	<Window id="win" backgroundColor="#019AE8" fullscreen="true" theme='Theme.AppCompat.Light.DarkActionBar'>
+		<View id="navHeader" backgroundColor="#019AE8" top="5dp" left="0dp" right="0dp" height="50dp">
+			<Button id="crossBtn" onClick="crossBtnListener" left="10dp" width="32dp" height="27dp" backgroundImage="/images/back.png"/>
+			<Label id="navLabel" left="55dp" color="#fff">New Project</Label>
+			<Button id="saveBtn" onClick="saveBtnListener" color="#fff" title="SAVE" right="10dp" width="Ti.UI.SIZE" height="30dp" backgroundColor="transparent"/>
+		</View>
+		<ScrollView id="scrollView" showVerticalScrollIndicator="true" top="60dp" layout='vertical' backgroundColor="white">
+			<Label id="sponsor" left="10dp" top="10dp" color="#000">Project Sponsor</Label>
+			<ScrollView id="directorsList" layout='horizontal'>
+			</ScrollView>
+			<Label id="assignManager">Assign Manager</Label>
+			<ScrollView id="managersList" layout='horizontal'>
+			</ScrollView>
+			<View id="pickerHeader" top="10dp" left="0dp" right="0dp" height="30dp">
+				<Label id="projectType" left="10dp" color="#000">Select category</Label>
+				<Button id="disclosureBtn" right="10dp" width="20dp" height="20dp" backgroundImage="/images/down.png"/>
+			</View>
+			<Label id="projectTitle">Project Title</Label>
+			<TextField id="projectName"/>
+			<Label id="description">Project Description</Label>
+			<TextArea id="projectDescription"/>
+			<View id="teamInfo" top="10dp" left="0dp" right="0dp" height="Ti.UI.SIZE" layout="horizontal">
+
+				<View id="teamSizeHolder" left="10dp" width="50%" height="Ti.UI.SIZE" layout='vertical'>
+					<Label id="teamSizeLabel">Team Size</Label>
+					<TextField id="teamSizeText"/>
+				</View>
+				<View id="durationHolder" left="0dp" right="0dp" height="Ti.UI.SIZE" layout='vertical'>
+					<Label id="durationLabel">Duration</Label>
+					<TextField id="durationText"/>
+				</View>
+
+			</View>
+			<Label id="responseDays">Response Day(s)</Label>
+			<TextField id="responseDaysText"/>
+			<Label id="budget" left="10dp" top="15dp" color="#000">Project Budget</Label>
+			<Label id="revenuePlan">Revenue Plan</Label>
+			<TextArea id="revenuePlanText"/>
+			<View id="targetRevenueInfo" top="10dp" left="0dp" right="0dp" height="Ti.UI.SIZE" layout="horizontal">
+
+				<View id="targetRevenueHolder" left="10dp" width="50%" height="Ti.UI.SIZE" layout='vertical'>
+					<Label id="targetRevenueLabel">Target Revenue</Label>
+					<TextField id="targetRevenueText"/>
+				</View>
+				<View id="additionalCostHolder" left="0dp" right="0dp" height="Ti.UI.SIZE" layout='vertical'>
+					<Label id="additionalCostLabel">Additional Cost</Label>
+					<TextField id="additionalCostText"/>
+				</View>
+
+			</View>
+			<View id="footerView" left="0dp" right="0dp" height="50dp"/>
+			<OptionDialog id="dialog" title="Select"></OptionDialog>
+
+		</ScrollView>
+	</Window>
+</Alloy>

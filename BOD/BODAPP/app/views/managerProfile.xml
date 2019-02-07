@@ -1,0 +1,6 @@
+<Alloy>
+	<View id="rootHolder" class="container" width="80dp" height="Ti.UI.FILL" layout='vertical'>
+		<ImageView id="profilePic" left="10dp" height="40dp" width="40dp" bubbleParent="true"/>
+		<Label id="profileName" bubbleParent="true"></Label>
+	</View>
+</Alloy>

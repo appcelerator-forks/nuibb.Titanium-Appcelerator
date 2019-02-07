@@ -1,0 +1,42 @@
+
+".container" : {
+  backgroundColor:"white"
+}
+
+"#headerLabel": {
+	top: "5dp",
+	left: "10dp",
+	color: "#000",
+	fontWeight: 'bold',
+	font: {
+		fontSize: 18
+	}
+}
+
+"#holder": {
+	left: 0,
+	right:0,
+	width:Ti.UI.FILL,
+	height: Titanium.UI.FILL
+}
+
+"#profilePic": {
+	left: 10,
+	width:30,
+	height: 30
+}
+
+"#profileName": {
+	left:"50dp",
+	color:"#9B9B9B",
+	font: {
+		fontSize: 14
+	}
+}
+
+"#elementsList": {
+	top:"0dp",
+	width:Ti.UI.FILL,
+	height:"90%",
+	showVerticalScrollIndicator:"false"
+}

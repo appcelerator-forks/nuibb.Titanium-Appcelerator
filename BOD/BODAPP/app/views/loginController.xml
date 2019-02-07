@@ -1,0 +1,13 @@
+<Alloy>
+	<Window id="win" class="container">
+		<View layout='vertical'>
+			<ImageView id="image" image="/images/logo.png" />
+			<Label id="label" color="#019AE8">B.O.D</Label>
+			<Label id="label2" color="#000" textAlign="Ti.UI.TEXT_ALIGNMENT_LEFT" left="20dp" top="30dp">Email</Label>
+			<TextField id="emailTextField" color="#000" backgroundColor="#F2F2F2" top="5dp" left="20" right="20" height="50dp" paddingLeft="5dp"/>
+			<Label id="label3" color="#000" textAlign="Ti.UI.TEXT_ALIGNMENT_LEFT" left="20dp" top="15dp">Password</Label>
+			<TextField id="passwordTextField" color="#000" backgroundColor="#F2F2F2" top="5dp" left="20" right="20dp" height="50dp" paddingLeft="5dp" passwordMask="true"/>
+			<Button id="button" onClick="login" color="#fff" backgroundColor="#019AE8" title="LOGIN" top="8%" left="20dp" right="20dp" height="50dp"/>
+		</View>
+	</Window>
+</Alloy>

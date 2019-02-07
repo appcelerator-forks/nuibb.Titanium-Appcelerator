@@ -1,0 +1,21 @@
+
+".container" : {
+  
+}
+
+"#profileName": {
+	left:"0dp",
+	color:"#000",
+	fontWeight: 'bold',
+	font: {
+		fontSize: 18
+	}
+}
+
+"#profileType": {
+	left: "0dp",
+	color: "#9B9B9B",
+	font: {
+		fontSize: 14
+	}
+}

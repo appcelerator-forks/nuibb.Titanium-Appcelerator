@@ -1,0 +1,20 @@
+<Alloy>
+	<View id="statusBox" class="container" layout="vertical">
+		<View id="pendingHolder" top="10dp" left="0dp" right="0dp" height="50dp">
+			<Button id="pendingBtn" left="10dp" width="15dp" height="15dp" backgroundImage="/images/tick_blur.png"/>
+			<Label id="rejectedLabel" left="40dp" color="#000">Pending</Label>
+		</View>
+		<View id="ongoingHolder" top="10dp" left="0dp" right="0dp" height="50dp">
+			<Button id="ongoingBtn" left="10dp" width="15dp" height="15dp" backgroundImage="/images/tick_blur.png"/>
+			<Label id="ongoingLabel" left="40dp" color="#000">Approved</Label>
+		</View>
+		<View id="rejectedHolder" top="10dp" left="0dp" right="0dp" height="50dp">
+			<Button id="rejectedBtn" left="10dp" width="15dp" height="15dp" backgroundImage="/images/tick_blur.png"/>
+			<Label id="rejectedLabel" left="40dp" color="#000">Rejected</Label>
+		</View>
+		<View id="allHolder" top="10dp" left="0dp" right="0dp" height="50dp">
+			<Button id="allBtn" left="10dp" width="15dp" height="15dp" backgroundImage="/images/tick_blur.png"/>
+			<Label id="allLabel" left="40dp" color="#000">All</Label>
+		</View>
+	</View>
+</Alloy>

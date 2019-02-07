@@ -1,0 +1,51 @@
+<Alloy>
+	<Window id="win" class="container" fullscreen="true" exitOnClose="true">
+
+		<Label id="emptyProject">You haven't create any project yet.</Label>
+		<View id="rootHolder" layout='vertical' top="0dp">
+
+			<View id="header" backgroundColor="#019AE8" top="0dp" left="0dp" right="0dp" height="Ti.UI.SIZE">
+				<ImageView id="leftNavImage" image="/images/burger.png"/>
+				<Label id="navText" left="50dp" color="#fff">B.O.D</Label>
+				<ImageView id="rightNavImage" image="/images/filter.png"/>
+				<ImageView id="notiNavImage" image="/images/notification.png"/>
+			</View>
+			<View id="btnView" backgroundColor="#019AE8" left="0dp" right="0dp" height="Ti.UI.SIZE" layout='horizontal'>
+				<View id="segmentView" left="0dp" right="0dp" width="33%" height="Ti.UI.SIZE" layout='vertical'>
+					<Button id="meButton" onClick="meBtnClick" color="#fff" backgroundColor="#019AE8" title="ME"/>
+					<View id="meSegment" backgroundColor="white" left="1dp" width="Ti.UI.FILL" height="2dp"></View>
+				</View>
+				<View id="segmentView" left="0dp" right="0dp" width="33%" height="Ti.UI.SIZE" layout='vertical'>
+					<Button id="otherButton" onClick="otherBtnClick" color="#58BCEF" backgroundColor="#019AE8" title="OTHERS"/>
+					<View id="otherSegment" left="0dp" width="Ti.UI.FILL" height="2dp"></View>
+				</View>
+				<View id="segmentView" left="0dp" right="0dp" width="33%" height="Ti.UI.SIZE" layout='vertical'>
+					<Button id="allButton" onClick="allBtnClick" color="#58BCEF" backgroundColor="#019AE8" title="ALL"/>
+					<View id="allSegment" left="0dp" width="Ti.UI.FILL" height="2dp"></View>
+				</View>
+			</View>
+			<ListView id="elementsList" defaultItemTemplate="elementTemplate" backgroundColor="#fff" onItemclick="itemClick">
+				<Templates>
+					<ItemTemplate name="elementTemplate" height='150dp'>
+						<View bindId="holderView" id="holderView" left="5dp" right="5dp" top="10dp" bottom="0dp"  layout='vertical' borderRadius="5" zIndex="1" backgroundColor="#f2f2f2">
+							<View id="profileSegment" left="0dp" right="0dp" top="0dp" height="40dp">
+
+								<ImageView bindId="profileImage" id="profilePic" image="/images/logo.png"/>
+								<Label id="concern">Project Sponsor</Label>
+								<View bindId="statusView" right="85dp" width="8dp" height="8dp" borderRadius="4dp"></View>
+								<Label bindId="status" id="statusLabel" right="10dp" width="70dp" color="#FF9800" textAlign="Ti.UI.TEXT_ALIGNMENT_RIGHT" fontStyle="italic"></Label>
+
+							</View>
+							<Label bindId="title" id="title"></Label>
+							<Label bindId="descript" id="details"></Label>
+						</View>
+					</ItemTemplate>
+				</Templates>
+				<ListSection></ListSection>
+			</ListView>
+
+		</View>
+		<ImageView id="floatingImage" bottom="10dp" right="10dp" width="65dp" height="70dp" borderRadius="35dp" viewShadowRadius="4dp" zIndex="1" image="/images/new.png"/>
+
+	</Window>
+</Alloy>

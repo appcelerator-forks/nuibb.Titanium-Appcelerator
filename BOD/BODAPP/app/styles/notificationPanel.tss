@@ -1,0 +1,59 @@
+
+
+".container": {
+	backgroundColor: "#fff"
+}
+
+"#navLabel": {
+	fontWeight: 'bold',
+	font: {
+		fontSize: 20
+	}
+}
+
+"#title": {
+	top: "10dp",
+	left: "10dp",
+	width:Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000",
+	fontWeight: 'bold',
+	font: {
+		fontSize: 16
+	}
+}
+
+"#timeAgo": {
+	top: "10dp",
+	right: "10dp",
+	width:Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#9B9B9B",
+	font: {
+		fontSize: 16
+	}
+}
+
+"#details": {
+	top: "40dp",
+	left: "10dp",
+	width:Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#9B9B9B",
+	font: {
+		fontSize: 16
+	}
+}
+
+"#line": {
+	height: '2dp',
+	bottom: '0dp',
+	left: '0dp',
+	right: '0dp',
+	borderWidth: '1',
+	borderColor: '#f2f2f2'
+}
+
+
+
+

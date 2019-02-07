@@ -1,0 +1,227 @@
+
+".container": {
+	backgroundColor: "#019AE8"
+}
+
+"#win[platform=android]": {
+	windowSoftInputMode: Ti.UI.Android.SOFT_INPUT_STATE_HIDDEN
+}
+
+"#navLabel": {
+	fontWeight: 'bold',
+	font: {
+		fontSize: 20
+	}
+}
+
+"#saveBtn": {
+	font: {
+		fontSize: 17
+	}
+}
+
+"scrollView": {
+	left: "0dp",
+	top: "0dp",
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE
+}
+
+"#sponsor": {
+	fontWeight: 'bold',
+	font: {
+		fontSize: 18
+	}
+}
+
+"#directorsList": {
+	top: "10dp",
+	left: "0dp",
+	right: "0dp",
+	height: "70dp",
+	showHorizontalScrollIndicator: true
+}
+
+"#assignManager": {
+	top:"10dp",
+	left: "10dp",
+	color: "#000",
+	fontWeight: 'bold',
+	font: {
+		fontSize: 18
+	}
+}
+
+"#managersList": {
+	top: "10dp",
+	left: "0dp",
+	right: "0dp",
+	height: "70dp",
+	scrollType:"horizontal",
+	layout:"horizontal"
+}
+
+"#projectType": {
+	fontWeight: 'bold',
+	font: {
+		fontSize: 18
+	}
+}
+
+"#projectTitle": {
+	top: "10dp",
+	left: "10dp",
+	color: "#9B9B9B",
+	font: {
+		fontSize: 14
+	}
+}
+
+"#projectName": {
+	top: "5dp",
+	left: "10dp",
+	right: "10dp",
+	height: Titanium.UI.SIZE,
+	color: "#000",
+	maxLength:80
+}
+
+"#description": {
+	top: "10dp",
+	left: "10dp",
+	color: "#9B9B9B",
+	font: {
+		fontSize: 14
+	}
+}
+
+"#projectDescription": {
+	top: "5dp",
+	left: "10dp",
+	right: "10dp",
+	height: Titanium.UI.SIZE,
+	color: "#000",
+	textAlign: "left",
+	keyboardType: Titanium.UI.KEYBOARD_DEFAULT,
+	returnKeyType :Titanium.UI.RETURNKEY_NEXT
+}
+
+"#teamSizeLabel": {
+	left: "0dp",
+	color: "#9B9B9B",
+	font: {
+		fontSize: 14
+	}
+}
+
+"#teamSizeText": {
+	top: "2dp",
+	left: "0dp",
+	right: "10dp",
+	height: Titanium.UI.SIZE,
+	maxLength:3,
+	color: "#000",
+	keyboardType : Ti.UI.KEYBOARD_NUMBER_PAD
+}
+
+"#durationLabel": {
+	left: "0dp",
+	color: "#9B9B9B",
+	font: {
+		fontSize: 14
+	}
+}
+
+"#durationText": {
+	top: "2dp",
+	left: "0dp",
+	right: "10dp",
+	height: Titanium.UI.SIZE,
+	color: "#000",
+	maxLength:3,
+	hintText:"Days",
+	keyboardType : Ti.UI.KEYBOARD_NUMBER_PAD
+}
+
+"#responseDays": {
+	top: "10dp",
+	left: "10dp",
+	color: "#9B9B9B",
+	font: {
+		fontSize: 14
+	}
+}
+
+"#responseDaysText": {
+	top: "5dp",
+	left: "10dp",
+	width: "50%",
+	height: Titanium.UI.SIZE,
+	color: "#000",
+	maxLength:3,
+	hintText:"Days",
+	keyboardType : Ti.UI.KEYBOARD_NUMBER_PAD
+}
+
+"#budget": {
+	fontWeight: 'bold',
+	font: {
+		fontSize: 18
+	}
+}
+
+"#revenuePlan": {
+	top: "10dp",
+	left: "10dp",
+	color: "#9B9B9B",
+	font: {
+		fontSize: 14
+	}
+}
+
+"#revenuePlanText": {
+	top: "5dp",
+	left: "10dp",
+	right: "10dp",
+	height: Titanium.UI.SIZE,
+	color: "#000",
+	textAlign: "left",
+	keyboardType: Titanium.UI.KEYBOARD_DEFAULT,
+	returnKeyType :Titanium.UI.RETURNKEY_NEXT
+}
+
+"#targetRevenueLabel": {
+	left: "0dp",
+	color: "#9B9B9B",
+	font: {
+		fontSize: 14
+	}
+}
+
+"#targetRevenueText": {
+	top: "2dp",
+	left: "0dp",
+	right: "10dp",
+	height: Titanium.UI.SIZE,
+	color: "#000",
+	maxLength:10,
+	keyboardType : Ti.UI.KEYBOARD_NUMBER_PAD
+}
+
+"#additionalCostLabel": {
+	left: "0dp",
+	color: "#9B9B9B",
+	font: {
+		fontSize: 14
+	}
+}
+
+"#additionalCostText": {
+	top: "2dp",
+	left: "0dp",
+	right: "10dp",
+	height: Titanium.UI.SIZE,
+	color: "#000",
+	maxLength:10,
+	keyboardType : Ti.UI.KEYBOARD_NUMBER_PAD
+}

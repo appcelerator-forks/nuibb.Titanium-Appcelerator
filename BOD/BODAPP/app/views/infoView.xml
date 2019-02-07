@@ -1,0 +1,9 @@
+<Alloy>
+	<View id= "infoView" class="container" top="100dp" left="100dp" right="10dp" height="65dp" backgroundColor="#f2f2f2" zIndex="1">
+		<ImageView id="profilePic" left="15dp" height="45dp" width="45dp"/>
+		<View id="holderView" layout="vertical" left="75dp" right="15dp" height="Ti.UI.SIZE">
+			<Label id="profileName"></Label>
+			<Label id="profileType">Project submitted by</Label>
+		</View>
+	</View>
+</Alloy>

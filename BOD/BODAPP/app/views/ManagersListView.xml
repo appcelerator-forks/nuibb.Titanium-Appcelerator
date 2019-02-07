@@ -1,0 +1,19 @@
+<Alloy>
+	<View id="rootHolder" class="container" top="12%" bottom="5%" left="12%" right="12%" zIndex="1" layout="vertical">
+		<Label id="headerLabel"></Label>
+		<View id="holder" layout="vertical">
+			<ListView id="elementsList" defaultItemTemplate="elementTemplate" onItemclick="itemClick">
+				<Templates>
+					<ItemTemplate name="elementTemplate" border="2dp" bordercolor="gray" height="50dp">
+						<ImageView bindId="profileImage" id="profilePic"/>
+						<Label bindId="name" id="profileName" color="#000"></Label>
+					</ItemTemplate>
+				</Templates>
+				<ListSection></ListSection>
+			</ListView>
+			<!-- <Button id="button" onClick="cancelBtnListener" color="#019ae8" title="CANCEL" bottom="0dp" right="5dp" width="Ti.UI.SIZE" height="50dp"/> -->
+			
+			<Button id="button" onClick="cancelBtnListener" color="#673AB7" title="CANCEL" bottom="0dp" right="5dp" width="Ti.UI.SIZE" height="50dp" backgroundColor="#fff"/>
+		</View>
+	</View>
+</Alloy>

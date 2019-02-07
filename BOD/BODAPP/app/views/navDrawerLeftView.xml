@@ -1,0 +1,21 @@
+<Alloy>
+	<View class="container" left="0dp" top="3%" right="15%" backgroundColor="white" layout="vertical" zIndex="1">
+		<View id="userProfileHolder" width="Ti.UI.FILL" height="25%" layout='vertical' backgroundColor="#019AE8">
+			<ImageView id="userProfileImage" top="10%" left="15dp" height="60dp" width="60dp" image="/images/defaultProfile.png"/>
+			<Label id="userProfileName" top="10dp" left="15dp" color="white">Manjur Mahmud</Label>
+			<Label id="userEmail" left="15dp" color="white">manjur@datasoft-bd.com</Label>
+		</View>
+		<View top="15dp" left="0dp" right="0dp" height="Ti.UI.SIZE" layout="horizontal">
+			<ImageView id="settingsPic" left="10dp" height="25dp" width="25dp" image="/images/settings.png"></ImageView>
+			<Label left="20dp" color="#000">Settings</Label>
+		</View>
+		<View top="15dp" left="0dp" right="0dp" height="Ti.UI.SIZE" layout="horizontal">
+			<ImageView id="infoPic" left="10dp" height="25dp" width="25dp" image="/images/info_settings.png"></ImageView>
+			<Label left="20dp" color="#000">Info</Label>
+		</View>
+		<View id="logout" top="15dp" left="0dp" right="0dp" height="Ti.UI.SIZE" layout="horizontal">
+			<ImageView id="infoPic" left="10dp" height="25dp" width="25dp" image="/images/logout.png"></ImageView>
+			<Label left="20dp" color="#000">Logout</Label>
+		</View>
+	</View>
+</Alloy>

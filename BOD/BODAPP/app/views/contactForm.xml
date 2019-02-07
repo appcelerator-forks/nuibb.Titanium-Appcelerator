@@ -1,0 +1,23 @@
+<Alloy>
+	<View id="contactHolder" class="container" left="20dp" right="20dp" height="Ti.UI.SIZE" layout="vertical">
+		<View class="container" top="0dp" left="0dp" right="0dp" height="Ti.UI.SIZE">
+			<ImageView id="profilePic" top="10dp" left="15dp" height="40dp" width="40dp"></ImageView>
+			<View id="holderView" top="5dp" left="65dp" right="30dp" height="45dp" layout="vertical">
+				<Label id="profileName" left="15dp"></Label>
+				<Label id="profileType" left="15dp">Project Sponsor</Label>
+			</View>
+			<Button id="crossButton" top="7dp" right="7dp" width="20dp" height="20dp" onClick="crossButtonClick" backgroundImage="/images/cross1.png"/>
+		</View>
+		<View class="container" top="30dp" left="0dp" right="0dp" height="Ti.UI.SIZE">
+			<Button id="callButton" left="30dp" width="40dp" height="40dp" onClick="callBtnClick" backgroundImage="/images/call.png"/>
+			<Button id="messageButton" width="40dp" height="40dp" onClick="messageBtnClick" backgroundImage="/images/message.png"/>
+			<Button id="emailButton" right="30dp" width="40dp" height="40dp" onClick="emailBtnClick" backgroundImage="/images/email.png"/>
+		</View>
+		<View class="container" top="5dp" left="0dp" right="0dp" height="Ti.UI.SIZE">
+			<Label id="callText" left="30dp">CALL</Label>
+			<Label id="messageText">MESSAGE</Label>
+			<Label id="emailText" right="30dp">MAIL</Label>
+		</View>
+		<View id="footerView" left="0dp" right="0dp" height="20dp"/>
+	</View>
+</Alloy>
